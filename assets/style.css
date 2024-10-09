@@ -1,0 +1,24 @@
+.mapel {
+  background-color: #E2E2E2;
+  height: 100vh;
+}
+
+.mapel-content {
+  padding-top: 20%;
+}
+
+
+.doctoral{
+  background-color: cornflowerblue; 
+  margin-top:50px; 
+  height: 100px;
+}
+
+.perti {
+  background-color: #E2E2E2;
+  margin-top: 50px;
+}
+  
+.fixed-bottom {
+  background-color: #D1D1D1;
+}
