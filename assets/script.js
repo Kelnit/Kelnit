@@ -3,7 +3,7 @@ function GetYear() {
   document.getElementById("yearly").innerHTML = year.getFullYear()
 }
   
-GetYear()
+// GetYear()
 
 function loadGradients() {
   fetch("/assets/opener.json")
