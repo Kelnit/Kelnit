@@ -1,12 +1,62 @@
-.mapel {
+body {
   background-color: #E2E2E2;
-  height: 100vh;
+}
+
+/*  */
+.interest {
+  padding: 30px 0; /* Add vertical padding to the section */
+}
+
+.gradient-box {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  transition: background 0.3s ease; /* Smooth hover transition */
+}
+
+/* Gradient backgrounds */
+.gradient-box:nth-child(1) {
+  background: linear-gradient(to right, #d53369, #cbad6d);
+}
+
+.gradient-box:nth-child(2) {
+  background: linear-gradient(to right, #fc354c, #0abfbc);
+}
+
+.gradient-box:nth-child(3) {
+  background: linear-gradient(to right, #5f2c82, #49a09d);
+}
+
+/* Add hover effect for uniform interaction */
+.gradient-box:hover {
+  background: linear-gradient(to right, #000428, #004e92); /* Change to a common hover color */
+  color: #fff; /* Ensure text remains visible */
+}
+/*  */
+
+.mapel {
+  height: 28vh;
+}
+
+.interest {
+  height: 60vh;
 }
 
 .mapel-content {
-  padding-top: 20%;
+  padding-top: 70px;
 }
 
+.mapel a {
+  width: 100px;
+}
+
+.cluster .col-md-4 {
+  height: 150px;
+}
+
+.cluster .row p {
+  padding-top: 45px;
+}
 
 .doctoral{
   background-color: cornflowerblue; 
