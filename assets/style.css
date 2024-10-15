@@ -14,28 +14,20 @@ body {
   transition: background 0.3s ease; /* Smooth hover transition */
 }
 
-/* Gradient backgrounds */
-.gradient-box:nth-child(1) {
-  background: linear-gradient(to right, #d53369, #cbad6d);
-}
-
-.gradient-box:nth-child(2) {
-  background: linear-gradient(to right, #fc354c, #0abfbc);
-}
-
-.gradient-box:nth-child(3) {
-  background: linear-gradient(to right, #5f2c82, #49a09d);
-}
-
 /* Add hover effect for uniform interaction */
 .gradient-box:hover {
-  background: linear-gradient(to right, #000428, #004e92); /* Change to a common hover color */
-  color: #fff; /* Ensure text remains visible */
+  background: linear-gradient(to right, #000428, #004e92) !important; /* Change to a common hover color */
+  color: #fff !important; /* Ensure text remains visible */
 }
-/*  */
 
 .mapel {
   height: 28vh;
+}
+
+@media (max-width: 768px) {
+  .mapel {
+    height: 18vh; /* Height for smaller screens (iPhone, Android) */
+  }
 }
 
 .interest {
@@ -54,8 +46,14 @@ body {
   height: 150px;
 }
 
-.cluster .row p {
-  padding-top: 45px;
+.gradient-box a {
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
 }
 
 .doctoral{
