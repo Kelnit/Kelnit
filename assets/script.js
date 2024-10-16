@@ -9,7 +9,7 @@ function loadGradients() {
   fetch("/assets/opener.json")
     .then(response => response.json())
     .then(data => {
-      const container = document.querySelector(".row"); // Assuming there is a parent .row div
+      const container = document.querySelector("#row-integrate"); // Assuming there is a parent .row div
       container.innerHTML = ''; // Clear any existing content
 
       data.gradients.forEach((gradient) => {
