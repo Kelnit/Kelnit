@@ -21,16 +21,14 @@ body {
 }
 
 .mapel {
-  height: 28vh;
-}
-
-@media (max-width: 768px) {
-  .mapel {
-    height: 18vh; /* Height for smaller screens (iPhone, Android) */
-  }
+  height: 44vh;
 }
 
 @media (max-width: 500px){
+  .mapel {
+    height: 50vh;
+  }
+
   .interest {
     padding-top: 100px;
   }
@@ -48,10 +46,14 @@ body {
 
 #button-resume {
   width: 100px;
+  background-color: #24C6DC;
+  width: 75%; height: 40px;
+  color: black;
+  margin-top: 10px;
 }
 
 .interest {
-  height: 50vh;
+  height: 80vh;
 }
 
 .ruinterest {
